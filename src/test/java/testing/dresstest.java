@@ -27,14 +27,14 @@ public class dresstest {
 
 
 
-	public void verifyyyy1236777dis() {
+	public void verifydis() {
 
 		Assert.assertTrue(dressob.getsize().isDisplayed(), "failed");	
 		Assert.assertTrue(dressob.getmedium().isDisplayed(), "failed");
 		Assert.assertTrue(dressob.getlarge().isDisplayed(), "failed");
 	}
 	@Test
-	public void cart123() {
+	public void cart() {
 		bp.movemouse(dressob.getproduct());
 		dressob.getcart().click();
 		dressob.getcheckout().click();
@@ -42,7 +42,7 @@ public class dresstest {
 		
 	}
 	@Test
-	public void verifycount() {
+	public void verifycountvicky() {
 		String s= dressob.getcount().getText();
 		System.out.println(s);
 	    int b =	dressob.getimg().size();
