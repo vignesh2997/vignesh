@@ -46,7 +46,7 @@ public class dresstest {
 		
 	}
 	@Test
-	public void verifycount() {
+	public void verifycountvignesh() {
 		String s= dressob.getcount().getText();
 		System.out.println(s);
 	    int b =	dressob.getimg().size();
