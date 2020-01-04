@@ -22,7 +22,10 @@ public class dresstest {
 		Assert.assertTrue(bp.getTitlte().contains("Dresses"));	
 	}
 	@Test
+
 	public void  girldisplayed() {
+
+	public void verifyyyy129999993displayed() {
 		Assert.assertTrue(dressob.getsize().isDisplayed(), "failed");	
 		Assert.assertTrue(dressob.getmedium().isDisplayed(), "failed");
 		Assert.assertTrue(dressob.getlarge().isDisplayed(), "failed");
