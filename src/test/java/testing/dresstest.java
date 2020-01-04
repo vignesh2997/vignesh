@@ -34,10 +34,8 @@ public class dresstest {
 		dressob.getcart().click();
 		dressob.getcheckout().click();
 		Assert.assertTrue(dressob.getTxtAttribute(dressob.getvalue()).contains("1"),"fail");
-		
 	}
 	@Test
-
 	public void verifycount() {
 		String s= dressob.getcount().getText();
 		System.out.println(s);
