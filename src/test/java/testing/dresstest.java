@@ -29,7 +29,10 @@ public class dresstest {
 		Assert.assertTrue(dressob.getlarge().isDisplayed(), "failed");
 	}
 	@Test
+
 	public void cart78() {
+
+	public void cart12() {
 
 		bp.movemouse(dressob.getproduct());
 		dressob.getcart().click();
