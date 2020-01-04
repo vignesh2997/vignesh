@@ -23,9 +23,13 @@ public class dresstest {
 	}
 	@Test
 
+
 	public void  girldisplayed() {
 
 	public void verifyyyy129999993displayed() {
+
+	public void verifyyyy1236777displayed() {
+
 		Assert.assertTrue(dressob.getsize().isDisplayed(), "failed");	
 		Assert.assertTrue(dressob.getmedium().isDisplayed(), "failed");
 		Assert.assertTrue(dressob.getlarge().isDisplayed(), "failed");
