@@ -22,17 +22,14 @@ public class dresstest {
 		Assert.assertTrue(bp.getTitlte().contains("Dresses"));	
 	}
 	@Test
-	public void verifydis() {
+	public void verifydisplay() {
 
 		Assert.assertTrue(dressob.getsize().isDisplayed(), "failed");	
 		Assert.assertTrue(dressob.getmedium().isDisplayed(), "failed");
 		Assert.assertTrue(dressob.getlarge().isDisplayed(), "failed");
 	}
 	@Test
-
-	public void cart78() {
-
-	public void cart12() {
+	public void cart() {
 
 		bp.movemouse(dressob.getproduct());
 		dressob.getcart().click();
