@@ -16,7 +16,7 @@ public class productdetailstest {
 	}
 	
 	@Test
-	public void details123() {
+	public void details() {
 		pd.getdress().click();
 		pd.getpagedetails().click();
 		Assert.assertTrue(pd.gettweet().isDisplayed(), "is not found");
