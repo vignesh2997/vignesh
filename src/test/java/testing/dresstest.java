@@ -1,7 +1,5 @@
 package testing;
 
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -22,7 +20,7 @@ public class dresstest {
 		Assert.assertTrue(bp.getTitlte().contains("Dresses"));	
 	}
 	@Test
-	public void verifydis() {
+	public void verifydisplay() {
 
 		Assert.assertTrue(dressob.getsize().isDisplayed(), "failed");	
 		Assert.assertTrue(dressob.getmedium().isDisplayed(), "failed");
