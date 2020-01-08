@@ -1,7 +1,5 @@
 package testing;
 
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
