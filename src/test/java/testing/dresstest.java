@@ -20,7 +20,7 @@ public class dresstest {
 		Assert.assertTrue(bp.getTitlte().contains("Dresses"));	
 	}
 	@Test
-	public void verifydisplay() {
+	public void verifydisplay123() {
 
 		Assert.assertTrue(dressob.getsize().isDisplayed(), "failed");	
 		Assert.assertTrue(dressob.getmedium().isDisplayed(), "failed");
